@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "author": "Elisha Hollander",
+    "name": "UnleashDino",
+    "version": "1",
+    "description": "Become invulnerable on Google Dino game",
+    "homepage_url": "https://github.com/donno2048/Dino",
+    "icons": {"21": "icon.png"},
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["background.js"]
+      }
+    ],
+    "offline_enabled": true
+}
